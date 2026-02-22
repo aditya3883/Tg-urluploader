@@ -1,1 +1,4 @@
-
+*.mp4
+*.txt
+jobs.json
+__pycache__/
