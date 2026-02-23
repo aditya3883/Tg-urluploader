@@ -107,4 +107,5 @@ application = ApplicationBuilder().token(BOT_TOKEN).build()
 application.add_handler(CommandHandler("start", start))
 application.add_handler(MessageHandler(filters.Document.ALL, txt_handler))
 
+print("🤖 Bot polling started...")
 application.run_polling(close_loop=False)
