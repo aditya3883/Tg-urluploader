@@ -26,7 +26,8 @@ JOB_FILE = "jobs.json"
 current_process = None
 cancel_flag = False
 txt_path = None
-
+print("BOT_TOKEN loaded:", bool(BOT_TOKEN))
+print("ADMIN_ID loaded:", ADMIN_ID)
 
 # ---------- KEEP ALIVE WEB ----------
 def run_web():
